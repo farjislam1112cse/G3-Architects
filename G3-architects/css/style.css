@@ -95,20 +95,37 @@ margin-bottom:2rem;
     max-width: 80%;
     margin: auto;
     display: flex;
-
-
+    align-items: center;
+    padding:5rem 0;
 }
 
 .features .image{
     display:flex;
-    
-
 }
+
 .features .image img{
     width: 200px;
     height: 200px;
 
 }
+.features .content{
+    margin-left:4rem;
+}
+
+.features .content h1{
+font-size: 45px;
+font-weight:700;
+margin-bottom:2rem;
+}
+.features .content h1 .grey{
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+    
+ }
+ .features .content h1 .yellow{
+    color: #FF900E;
+
+ }
 
 
 
